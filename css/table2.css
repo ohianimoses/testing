@@ -1,0 +1,87 @@
+table, td, th{
+
+    border-bottom: 2px solid;
+    border-collapse: collapse;
+    border-color: aqua;
+    
+    }
+    
+    
+    table{
+    
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    
+    
+    }
+    
+    
+    td, th{
+    
+    padding: 10px;
+    
+    
+    }
+    
+    
+    th{
+    
+    background-color: dodgerblue;
+    color: white;
+    
+    
+    }
+    
+    
+    tr:nth-child(even){
+    
+    background-color: lightgray;
+    
+    }
+    
+    
+    tr:hover{
+    
+    
+    background-color: darkgreen;
+    
+    }
+    
+    
+    .container{
+    
+        margin: 0px 50px;
+    
+    }
+
+
+    .checkmark::after{
+
+        content:"\2713";
+        color: white;
+        font-weight: bolder;
+        background-color: green;
+    }
+
+
+    .checkmark1::after{
+
+        content:"\274C";
+        color: white;
+        font-weight: bolder;
+        background-color: white;
+    }
+
+
+    
+    caption{
+
+font-weight: bold;
+background-color: dodgerblue;
+margin: 10px 0px;
+color: white;
+
+    }
+
+
